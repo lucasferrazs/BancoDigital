@@ -1,7 +1,10 @@
 package com.model;
 
 import com.services.*;
-
+import com.services.ContaPoupanca;
+import com.services.Banco;
+import com.services.Cliente;
+import com.services.Conta;
 public class Bradesco {
     public static void main(String[] args){
         Banco banco = new Banco("Bradesco");
